@@ -1,0 +1,18 @@
+# Adobe Hackathon Round 1A Configuration
+# Optimized for speed and accuracy
+
+# Font analysis thresholds
+min_font_size_threshold: 10
+font_size_variance_threshold: 2.0
+position_threshold: 0.7
+
+# Text analysis parameters
+max_heading_length: 200
+min_heading_length: 3
+
+# Performance settings
+enable_fast_mode: true
+max_processing_time: 8  # Target: 8 seconds
+
+# Logging configuration
+log_level: "INFO"
